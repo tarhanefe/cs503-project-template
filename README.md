@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/epfl_logo.svg" alt="description" width="200">
+  <img src="assets/epfl_logo.svg" alt="description" width="200">
 </p>
 <h1 align="center">EPFL CS503 - Visual Intelligence<br>Machine and Minds <br>Course Project Website Template</h1>
 
