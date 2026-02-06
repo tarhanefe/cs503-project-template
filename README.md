@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/epfl_logo.svg" alt="description" width="200">
+  <img src="/assets/epfl_logo.svg" alt="description" width="200">
 </p>
 <h1 align="center">EPFL CS503 - Visual Intelligence<br>Machine and Minds <br>Course Project Website Template</h1>
 
@@ -19,6 +19,13 @@ The `static` folder can be used for storing images, gifs, videos and other conte
 After making the edits update the repository and commit your changes. 
 
 ## 2 - Publish the Website on GitHub Pages
+The website can be published following the given steps: 
+
+1. Go to _Settings_ in of the repository and select _Pages_ from the left corner options. 
+
+2. 
+
+
 
 ---
 This template has been taken from [here](https://nerfies.github.io).
