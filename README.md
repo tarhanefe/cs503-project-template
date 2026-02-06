@@ -27,5 +27,6 @@ The website can be published following the given steps:
 
 3. Wait for some time and you can see the first deployment following the provided link at your domain 🎉.
 
+4. Afterwards, your commits will update the website each time. 
 ---
 This template has been taken from [here](https://nerfies.github.io).
