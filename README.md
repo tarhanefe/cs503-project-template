@@ -12,7 +12,14 @@ Follow the given steps to clone the repository to your local and publish on the 
 ```bash
 git clone https://github.com/tarhanefe/cs503-project-template.git
 ```
-After cloning the repository, make changes in the file `index.html` to modify your website as you wish. 
+After cloning the repository, make changes in the file `index.html` to modify your website as you wish. The parts that can be edited are labeled with following blocks: 
+
+```html
+<!--TODO: CODE BLOCK DESCRIPTION-->
+
+
+<!-------------------------------->
+```
 
 The `static` folder can be used for storing images, gifs, videos and other content that can be used in the report for reporting. 
 
