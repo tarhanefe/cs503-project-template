@@ -447,6 +447,7 @@ Format the equations using LaTeX and add them to the website like this:
 <!--------------------------------->
 
 <h3 class="title is-4">Sliding Media Display</h3>
+    <section class="section">
       <div class="container is-max-desktop">
         <div id="dataset-carousel" class="carousel results-carousel">
           <a href="./static/gifs/bike.gif" data-lightbox="image">
@@ -466,13 +467,56 @@ Format the equations using LaTeX and add them to the website like this:
           </a>
         </div>
       </div>
+    </section>
 <!--------------------------------->
+<h3 class="title is-4">Table</h3>
 
+<div class="content has-text-justified">
+  <p>
+    The table format below can be used for results and other purposes.
+  </p>
+  <div class="table-container">
+    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+      <thead>
+        <tr>
+          <th>Method</th>
+          <th>Metric 1</th>
+          <th>Metric 2</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Baseline</td>
+          <td>0.00</td>
+          <td>0.00</td>
+          <td>Reference setup</td>
+        </tr>
+        <tr>
+          <td>Method A</td>
+          <td>0.00</td>
+          <td>0.00</td>
+          <td>First variant</td>
+        </tr>
+        <tr>
+          <td>Method B</td>
+          <td>0.00</td>
+          <td>0.00</td>
+          <td>Second variant</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
+<!--------------------------------->
+<h3 class="title is-4">Interactive Plot</h3>
+<div class="box">
+  <iframe src="./static/plotly/interactive_plot.html" frameborder="0" width="100%"
+    height="500px"></iframe>
+</div>
 
-
-
-
+<!--------------------------------->
 
         </div>
       </div>
