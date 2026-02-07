@@ -336,6 +336,7 @@
             Here you can see possible visualizations that can be used in this website 
             </p>
           </div>
+        <h3 class="title is-5">Video Clip</h3>
        <!-- Video can be added like this -->   
         <div class="content has-text-centered">
           <video id="replay-video"
@@ -348,8 +349,9 @@
                     type="video/mp4">
           </video>
         </div>
-       <!--------------------------------->      
-
+       <!---------------------------------> 
+           
+      <h3 class="title is-5">Image Interpolation with Slider</h3>
        <!-- Image can be added like this -->
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
@@ -373,7 +375,39 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
+        
+<h3 class="title is-4">Double Column Media Display</h3>
+    <div class="columns is-centered is-multiline">
+      <!-- Column 1. -->
+      <div class="column is-half">
+        <div class="content">
+          <h3 class="title is-5">Column 1</h3>
+          <p>
+            Add a short description for the first video/image.
+          </p>
+          <video id="dollyzoom" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/dollyzoom-stacked.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Column 1 -->
 
+      <!-- Column 2 -->
+      <div class="column is-half">
+        <div class="content">
+          <h3 class="title is-5">Column 2</h3>
+          <p>
+            Add a short description for the second video/image.
+          </p>
+          <video id="matting-video" controls playsinline width="100%">
+            <source src="./static/videos/matting.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Column 2 -->
+    </div>
         <!--------------------------------->
         </div>
       </div>
@@ -382,100 +416,6 @@
   </section>
 
 <!------------------------------------------------------------------------->
-
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-      </div>
-    </div>
-    <!--/ Animation. -->
-
-
-
-  </div>
-</section>
-
-
-
 
 <footer class="footer">
             <div class="container">
